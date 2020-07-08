@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.global-box{
+    width: 50em;
+    height: 50em;
+    margin: 0 auto;
+}
+
+.theme{
+    text-align: center;
+
+}
+
+.theme h1{
+    color: red;
+    font-family: Algerian;
+    line-height: 80px;
+    font-weight: 400;
+}
+
+.theme img{
+    border-radius: 10px 10px 0 0;
+    width: 30%;
+    height: 30%;
+
+}
+
+.theme label{
+    line-height: 2;
+}
+
+.theme label button{
+    width: 35%;
+    /* height: 38%; */
+    height: 2.5em;
+    margin-top: 10px;
+    border: 0 solid;
+
+    border-radius: 5px;
+
+}
+
+.theme label button:hover{
+    border:1px solid wheat;
+    background-color: cadetblue;
+}
+
+.theme label button:focus{
+    border:1px solid wheat;
+    border-radius: 5px;
+
+}
+
+.theme-input-bzhu{
+    width: 18em;
+    background:none;
+    outline:none;
+    border: none;
+    border-bottom:1px solid #ccc;
+}
+
+.theme-input-bzhu:focus{
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+
